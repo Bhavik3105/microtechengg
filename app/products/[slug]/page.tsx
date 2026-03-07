@@ -79,7 +79,7 @@ export default async function ProductDetailPage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Product Image */}
           <div className="mb-12">
-            <div className="relative w-full h-[800px] rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative w-full aspect-video lg:h-[800px] lg:aspect-auto rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={product.image}
                 alt={product.name}

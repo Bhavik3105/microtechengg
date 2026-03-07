@@ -21,14 +21,14 @@ export default function HeroSection() {
 
   return (
     <section
-      className="relative bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 overflow-hidden min-h-[60vh]"
+      className="relative bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 overflow-hidden min-h-screen lg:min-h-[60vh]"
       aria-label="Hero section"
     >
       {/* Background Videos with fade transition */}
       {heroVideos.map((video, index) => (
         <video
           key={video.src}
-          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+          className={`absolute inset-0 w-full h-full object-cover [object-position:50%_30%] md:object-center transition-opacity duration-1000 ${
             index === currentVideoIndex ? "opacity-100" : "opacity-0"
           }`}
           autoPlay
@@ -47,7 +47,8 @@ export default function HeroSection() {
       ))}
       
       {/* Layered Gradient Overlays for depth */}
-      <div className="absolute inset-0 bg-black/10" aria-hidden="true" />
+      <div className="absolute inset-0 bg-black/35 md:bg-black/10" aria-hidden="true" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/20 md:hidden" aria-hidden="true" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
