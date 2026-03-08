@@ -2,12 +2,13 @@
 import Image from "next/image";
 
 const productLinks = [
-  { href: "/products/pressure-vessels", label: "Pressure Vessels" },
-  { href: "/products/pw-wfi-storage-tanks", label: "PW & WFI Storage Tanks" },
-  { href: "/products/liquid-oral-processing-plant", label: "Liquid Oral Processing Plant" },
   { href: "/products/ointment-manufacturing-plant", label: "Ointment Manufacturing Plant" },
-  { href: "/products/stainless-steel-air-tray-dryer", label: "Air Tray Dryer" },
-  { href: "/products/stainless-steel-octagonal-blender", label: "Octagonal Blender" },
+  { href: "/products/liquid-oral-processing-plant", label: "Liquid Oral Processing Plant" },
+  { href: "/products/pw-wfi-storage-tanks", label: "PW & WFI Storage Tanks" },
+  { href: "/products/stainless-steel-air-tray-dryer", label: "Stainless Steel Air Tray Dryer" },
+  { href: "/products/stainless-steel-octagonal-blender", label: "Stainless Steel Octagonal Blender" },
+  { href: "/products/multi-mill-machine", label: "Multi Mill Machine" },
+  { href: "/products/stainless-steel-ipc-bin-container", label: "Stainless Steel IPC Bin Container" },
 ];
 
 export default function Footer() {
