@@ -34,8 +34,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.shortDescription}
         </p>
 
-        <div className="mt-auto flex items-center justify-between pt-4 border-t border-gray-100">
-          <span className="text-xs text-gray-400 font-medium">SS 304 / SS 316L</span>
+        <div className="mt-auto flex items-center justify-end pt-4 border-t border-gray-100">
           <Link
             href={`/products/${product.slug}`}
             className="inline-flex items-center gap-2 text-sm font-semibold text-gray-900 hover:gap-3 transition-all"
