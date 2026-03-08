@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const heroVideos = [
   { src: "/videos/Resized Video.mp4", maxTime: 7 },
-  { src: "/videos/Flow_delpmaspu_.mp4", maxTime: null },
+  { src: "/videos/lv_0_20260308163110.mp4", maxTime: null },
 ];
 
 export default function HeroSection() {
