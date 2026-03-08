@@ -59,7 +59,7 @@ export default function AboutPage() {
           </nav>
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">About Microtech Engineering</h1>
           <p className="text-gray-600 max-w-2xl text-lg leading-relaxed">
-            A trusted manufacturer of industrial and pharmaceutical machinery, based in Mumbai since 2020.
+            A trusted manufacturer of industrial and pharmaceutical machinery, established since 2020.
           </p>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function AboutPage() {
                 Who We Are
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Microtech Engineering is a Mumbai-based manufacturer, exporter, and supplier of
+                Microtech Engineering is a trusted manufacturer, exporter, and supplier of
                 high-performance industrial and pharmaceutical machinery. Established in 2020, we have
                 rapidly grown to serve clients across India and international markets.
               </p>

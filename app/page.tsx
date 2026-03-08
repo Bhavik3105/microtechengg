@@ -99,8 +99,7 @@ export default function HomePage() {
               Trusted Machinery Manufacturer Since 2020
             </h2>
             <p className="text-gray-600 leading-relaxed text-lg sm:text-xl mb-6">
-              Microtech Engineering, based in{" "}
-              <strong>Mumbai</strong>, is a specialist manufacturer
+              Microtech Engineering is a specialist manufacturer
               of industrial and pharmaceutical machinery. We serve
               pharmaceutical companies, chemical processors, food manufacturers,
               and Ayurvedic producers across India and internationally.

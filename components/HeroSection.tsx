@@ -60,7 +60,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-900 font-semibold leading-relaxed mb-10 max-w-2xl mx-auto lg:mx-0 drop-shadow-md">
-              High-quality pressure vessels, pharmaceutical processing plants, and industrial machinery from Mumbai
+              High-quality pressure vessels, pharmaceutical processing plants, and industrial machinery
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
