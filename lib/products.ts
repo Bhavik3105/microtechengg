@@ -235,38 +235,6 @@ export const products: Product[] = [
     metaDescription:
       "cGMP stainless steel IPC bin containers for pharmaceutical material handling by Microtech Engineering, Mumbai. Capacities 50L–2,000L.",
   },
-  {
-    slug: "liquid-syrup-manufacturing-plant",
-    name: "Liquid Syrup Manufacturing Plant",
-    shortDescription:
-      "Complete turnkey liquid syrup manufacturing plants for pharmaceutical, nutraceutical, and Ayurvedic syrup production.",
-    description:
-      "Microtech Engineering designs and manufactures complete Liquid Syrup Manufacturing Plants specifically engineered for pharmaceutical, Ayurvedic, herbal, and nutraceutical industries producing medicated syrups, health tonics, vitamin supplements, cough formulations, and nutritional liquid products. Our turnkey plants integrate all critical process operations from raw material preparation through finished product ready for bottling, providing manufacturers with a complete solution for liquid syrup production. The process begins with sugar syrup dissolution where granulated sugar is dissolved in purified water within a jacketed stainless steel vessel equipped with high-speed agitators and steam heating coils, achieving rapid dissolution and syrup clarity. The dissolved syrup is then transferred to the main manufacturing vessel where active pharmaceutical ingredients, herbal extracts, flavoring agents, preservatives, and other excipients are added in controlled sequence according to the formulation protocol. The manufacturing vessel features variable-speed anchor or propeller agitators providing thorough mixing and homogenization, with jacketed heating/cooling for temperature-controlled processing essential for heat-sensitive ingredients and formulation stability. For products requiring emulsification or suspension, an inline high-shear homogenizer is integrated into the circulation loop, creating uniform particle size distribution and stable formulations resistant to sedimentation. After manufacturing, the syrup is circulated through a plate heat exchanger for controlled cooling to filling temperature, preventing thermal degradation while reducing batch cycle time. Multi-stage filtration using cartridge filters removes any particulate matter ensuring crystal-clear product appearance and preventing filling line blockages. The finished syrup is then transferred to a holding tank equipped with level monitoring and recirculation capability, maintaining product homogeneity until filling operations commence. All vessels, pipelines, pumps, and valves are manufactured from SS 316L stainless steel with orbital welded joints and mirror-polished interiors (Ra ≤ 0.4 µm) meeting cGMP standards for pharmaceutical production. The plant incorporates automated CIP (Clean-in-Place) systems with programmable cleaning sequences using detergent circulation, hot water rinses, and sanitization cycles, eliminating manual cleaning and ensuring batch-to-batch segregation. PLC-based automation with HMI touchscreen panels provides recipe management, automated parameter control, real-time monitoring, alarm management, and batch record generation supporting regulatory documentation and audit trails. Our liquid syrup plants are designed in modular configurations allowing capacity expansion and process modification as production requirements grow, with batch sizes from pilot scale (500 liters) to full production scale (30,000 liters). Complete engineering documentation including P&IDs, equipment specifications, material certificates, FAT reports, and validation protocols are provided to support regulatory submissions and facility qualification.",
-    features: [
-      "Sugar syrup dissolving vessel with steam jacket and stirrer",
-      "Manufacturing / blending vessel with agitator",
-      "Transfer system (pumps and pipelines)",
-      "Plate heat exchanger / cooler",
-      "Holding tank for storage before filling",
-      "In-line filtration system",
-      "Level indicators and CIP nozzles",
-      "PLC-based automation (optional)",
-      "Batch capacity: 500L to 30,000L",
-    ],
-    applications: [
-      "Pharmaceutical cough and health syrups",
-      "Ayurvedic herbal syrups",
-      "Nutritional supplement liquids",
-      "Pediatric medicines",
-      "Vitamin and mineral tonic manufacturing",
-    ],
-    category: "Pharmaceutical Equipment",
-    image: "/images/LIQUID SYRUP PLAT.png",
-    metaTitle:
-      "Liquid Syrup Manufacturing Plant Manufacturer | Microtech Engineering",
-    metaDescription:
-      "Turnkey liquid syrup manufacturing plants for pharma and Ayurvedic syrup production by Microtech Engineering, Mumbai. Batch capacity 500L–30,000L.",
-  },
 ];
 
 export function getProductBySlug(slug: string): Product | undefined {

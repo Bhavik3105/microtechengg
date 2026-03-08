@@ -147,7 +147,6 @@ export default function ContactForm() {
             <option>Stainless Steel Air Tray Dryer</option>
             <option>Stainless Steel Octagonal Blender</option>
             <option>Multi Mill Machine</option>
-            <option>Liquid Syrup Manufacturing Plant</option>
             <option>Stainless Steel IPC Bin Container</option>
             <option>Custom / Other</option>
           </select>
