@@ -8,7 +8,8 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <article className="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl hover:border-gray-200 transition-all duration-300 flex flex-col">
+    <Link href={`/products/${product.slug}`} className="group block">
+    <article className="bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl hover:border-gray-200 transition-all duration-300 flex flex-col h-full cursor-pointer">
       {/* Product Image */}
       <div className="relative bg-gradient-to-br from-gray-50 to-gray-100 h-56 flex items-center justify-center overflow-hidden">
         <Image
@@ -35,10 +36,8 @@ export default function ProductCard({ product }: ProductCardProps) {
         </p>
 
         <div className="mt-auto flex items-center justify-end pt-4 border-t border-gray-100">
-          <Link
-            href={`/products/${product.slug}`}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-gray-900 hover:gap-3 transition-all"
-            aria-label={`View details for ${product.name}`}
+          <span
+            className="inline-flex items-center gap-2 text-sm font-semibold text-gray-900 group-hover:gap-3 transition-all"
           >
             View Details
             <svg
@@ -55,9 +54,10 @@ export default function ProductCard({ product }: ProductCardProps) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </Link>
+          </span>
         </div>
       </div>
     </article>
+    </Link>
   );
 }
