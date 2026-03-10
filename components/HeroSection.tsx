@@ -59,7 +59,7 @@ export default function HeroSection() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">Quality You Can Trust</span>
             </h1>
 
-            <p className="text-lg sm:text-xl text-gray-900 font-semibold leading-relaxed mb-10 max-w-2xl mx-auto lg:mx-0 drop-shadow-md">
+            <p className="text-lg sm:text-xl text-orange-500 font-semibold leading-relaxed mb-10 max-w-2xl mx-auto lg:mx-0 drop-shadow-md">
               High-quality pressure vessels, pharmaceutical processing plants, and industrial machinery
             </p>
 
