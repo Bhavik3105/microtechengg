@@ -21,14 +21,14 @@ export default function HeroSection() {
 
   return (
     <section
-      className="relative bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 overflow-hidden min-h-screen lg:min-h-[60vh]"
+      className="relative w-full h-[65vh] md:h-auto md:min-h-[60vh] bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 overflow-hidden"
       aria-label="Hero section"
     >
       {/* Background Videos with fade transition */}
       {heroVideos.map((video, index) => (
         <video
           key={video.src}
-          className={`absolute inset-0 w-full h-full object-cover [object-position:50%_30%] md:object-center transition-opacity duration-1000 ${
+          className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${`
             index === currentVideoIndex ? "opacity-100" : "opacity-0"
           }`}
           autoPlay
@@ -46,11 +46,10 @@ export default function HeroSection() {
         </video>
       ))}
       
-      {/* Layered Gradient Overlays for depth */}
-      <div className="absolute inset-0 bg-black/35 md:bg-black/10" aria-hidden="true" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/20 md:hidden" aria-hidden="true" />
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="text-center lg:text-left">
