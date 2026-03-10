@@ -28,7 +28,7 @@ export default function HeroSection() {
       {heroVideos.map((video, index) => (
         <video
           key={video.src}
-          className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${`
+          className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${
             index === currentVideoIndex ? "opacity-100" : "opacity-0"
           }`}
           autoPlay
