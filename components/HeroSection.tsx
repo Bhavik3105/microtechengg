@@ -47,7 +47,7 @@ export default function HeroSection() {
       ))}
       
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
+      <div className="absolute inset-0 bg-black/25" aria-hidden="true" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
