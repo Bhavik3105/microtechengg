@@ -6,7 +6,7 @@ const clients = Array.from({ length: 10 }, (_, i) => ({
   id: i + 1,
   logo: `/images/client${i + 1}.png`,
   name: `Client ${i + 1}`,
-}));
+})).filter(client => client.id !== 7 && client.id !== 9);
 
 export default function ClientLogos() {
   const scrollRef = useRef<HTMLDivElement>(null);
