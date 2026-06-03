@@ -60,7 +60,7 @@ export const blogPosts: BlogPost[] = [
     category: "Compliance",
     readTime: "6 min read",
     date: "May 28, 2026",
-    author: "Bhavik Shah (Engineering Director)",
+    author: "Ashish Panchal",
     image: "/images/OINTMENT.png",
     metaTitle: "cGMP Compliance in Pharmaceutical Machinery Guide | Microtech",
     metaDescription:
@@ -143,7 +143,7 @@ export const blogPosts: BlogPost[] = [
     category: "Water Systems",
     readTime: "8 min read",
     date: "April 15, 2026",
-    author: "Bhavik Shah (Engineering Director)",
+    author: "Ashish Panchal",
     image: "/images/PW WFI STORAGE TANK.png",
     metaTitle: "PW vs WFI Storage Tanks Design Differences | Microtech",
     metaDescription:
@@ -190,7 +190,7 @@ export const blogPosts: BlogPost[] = [
     category: "Blending Technology",
     readTime: "5 min read",
     date: "March 10, 2026",
-    author: "Bhavik Shah (Engineering Director)",
+    author: "Ashish Panchal",
     image: "/images/octagonal blender.png",
     metaTitle: "Octagonal Blenders for Powder Homogeneity Guide | Microtech",
     metaDescription:

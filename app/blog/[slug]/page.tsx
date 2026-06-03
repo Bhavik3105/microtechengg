@@ -133,7 +133,7 @@ export default async function BlogPostPage({ params }: Props) {
           <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-sm text-gray-600 font-medium">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center text-white font-bold text-xs">
-                BS
+                AP
               </div>
               <span>{post.author}</span>
             </div>
