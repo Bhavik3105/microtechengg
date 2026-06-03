@@ -53,10 +53,11 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-6 drop-shadow-lg">
-              Pharmaceutical Machinery Manufacturer{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">in Mumbai, Maharashtra | Microtech Engineering</span>
-            </h1>
+            <h1 className="sr-only">Pharmaceutical Machinery Manufacturer in Mumbai, Maharashtra | Microtech Engineering</h1>
+            <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-6 drop-shadow-lg">
+              Quality{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">Unparalleled</span>
+            </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
@@ -87,7 +88,7 @@ export default function HeroSection() {
                   <div className="text-3xl lg:text-4xl font-bold text-gray-900">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-gray-500 mt-1 font-medium">{stat.label}</div>
+                  <div className="text-sm text-gray-900 mt-1 font-semibold">{stat.label}</div>
                 </div>
               ))}
             </div>
