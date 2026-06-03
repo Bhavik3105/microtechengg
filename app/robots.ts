@@ -1,4 +1,4 @@
-﻿import type { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export const dynamic = "force-static";
 
@@ -11,7 +11,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: [],
       },
     ],
-    sitemap: "https://www.microtechengineering.in/sitemap.xml",
-    host: "https://www.microtechengineering.in",
+    sitemap: "https://www.microtechengg.in/sitemap.xml",
+    host: "https://www.microtechengg.in",
   };
 }

@@ -1,19 +1,63 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us – Microtech Engineering | Palghar Machinery Manufacturer",
+  title: {
+    absolute: "Contact Microtech Engineering | Pharmaceutical Machinery Supplier, Palghar",
+  },
   description:
-    "Contact Microtech Engineering for inquiries on pressure vessels, pharmaceutical machinery, and industrial equipment. Based in Vasai East, Palghar, Maharashtra. Get a free quote today.",
+    "Contact Microtech Engineering for pharmaceutical machinery inquiries. Located in Mumbai East, Palghar, Maharashtra. Call +91 704 532 6871 or email sales@microtechengg.in for quotes.",
   alternates: {
     canonical: "https://www.microtechengg.in/contact",
   },
 };
 
 export default function ContactPage() {
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.microtechengg.in",
+    name: "Microtech Engineering",
+    image: "https://www.microtechengg.in/images/logo.png",
+    url: "https://www.microtechengg.in",
+    telephone: "+91-770-097-9405",
+    email: "sales@microtechengg.in",
+    description:
+      "Manufacturer and exporter of pressure vessels, PW & WFI storage tanks, liquid oral processing plants, ointment manufacturing plants, air tray dryers, octagonal blenders, multi mill machines, and more pharmaceutical and industrial machinery.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Plot 06/302, Umar Compound, Nalasopara Phata",
+      addressLocality: "Palghar",
+      addressRegion: "Maharashtra",
+      postalCode: "401208",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "19.4362719",
+      longitude: "72.8800949",
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    priceRange: "$$",
+    foundingDate: "2020",
+    areaServed: {
+      "@type": "Country",
+      name: "India",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <section className="bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav aria-label="Breadcrumb" className="mb-6">

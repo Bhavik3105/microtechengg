@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Products – Industrial & Pharmaceutical Machinery | Microtech Engineering",
+  title: {
+    absolute: "Pharmaceutical Machinery Products | Ointment Plant, Blenders & More – Microtech Engineering",
+  },
   description:
-    "Browse Microtech Engineering full range of industrial and pharmaceutical machinery: pressure vessels, PW/WFI tanks, liquid processing plants, blenders, dryers, and more.",
+    "Browse our full range of pharmaceutical & industrial machinery: ointment manufacturing plants, liquid oral plants, SS blenders, air tray dryers, PW/WFI tanks & more. Pan India delivery & export.",
   alternates: {
     canonical: "https://www.microtechengg.in/products",
   },

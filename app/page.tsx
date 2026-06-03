@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import ClientLogos from "@/components/ClientLogos";
@@ -7,10 +7,11 @@ import IndustriesSection from "@/components/IndustriesSection";
 import { products } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title:
-    "Microtech Engineering – Industrial & Pharmaceutical Machinery Manufacturer in Mumbai",
+  title: {
+    absolute: "Pharmaceutical Machinery Manufacturer | Mumbai, Maharashtra | Microtech Engineering",
+  },
   description:
-    "Microtech Engineering is a Mumbai-based manufacturer and exporter of pressure vessels, storage tanks, liquid processing plants and pharmaceutical machinery.",
+    "Leading manufacturer & exporter of pharmaceutical machinery — ointment plants, liquid oral processing plants, PW/WFI storage tanks, blenders & dryers. Based in Mumbai, Maharashtra. cGMP compliant. Get a quote today.",
   alternates: {
     canonical: "https://www.microtechengg.in",
   },
@@ -82,9 +83,50 @@ const whyChooseUs = [
 
 export default function HomePage() {
   const featuredProducts = products.slice(0, 6);
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.microtechengg.in",
+    name: "Microtech Engineering",
+    image: "https://www.microtechengg.in/images/logo.png",
+    url: "https://www.microtechengg.in",
+    telephone: "+91-770-097-9405",
+    email: "sales@microtechengg.in",
+    description:
+      "Manufacturer and exporter of pressure vessels, PW & WFI storage tanks, liquid oral processing plants, ointment manufacturing plants, air tray dryers, octagonal blenders, multi mill machines, and more pharmaceutical and industrial machinery.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Plot 06/302, Umar Compound, Nalasopara Phata",
+      addressLocality: "Palghar",
+      addressRegion: "Maharashtra",
+      postalCode: "401208",
+      addressCountry: "IN",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "19.4362719",
+      longitude: "72.8800949",
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      opens: "09:00",
+      closes: "18:00",
+    },
+    priceRange: "$$",
+    foundingDate: "2020",
+    areaServed: {
+      "@type": "Country",
+      name: "India",
+    },
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
       <HeroSection />
       <ClientLogos />
 

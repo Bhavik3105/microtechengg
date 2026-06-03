@@ -40,9 +40,9 @@ export const products: Product[] = [
     category: "Pharmaceutical Equipment",
     image: "/images/OINTMENT.png",
     metaTitle:
-      "Ointment Manufacturing Plant Manufacturer Mumbai | Microtech Engineering",
+      "Ointment Manufacturing Plant Manufacturer | GMP Certified | Microtech Engineering, Mumbai",
     metaDescription:
-      "GMP-certified ointment and cream manufacturing plants with vacuum emulsification by Microtech Engineering, Mumbai. Ideal for pharma and cosmetic industries.",
+      "GMP-certified ointment & cream manufacturing plants with vacuum emulsification, 50L–5,000L capacity, SS 316L construction, automated CIP. Manufacturer & exporter from Mumbai, Maharashtra.",
   },
   {
     slug: "liquid-oral-processing-plant",
@@ -72,9 +72,9 @@ export const products: Product[] = [
     category: "Pharmaceutical Equipment",
     image: "/images/LIQUID ORAL PLANT ENCLOSED.png",
     metaTitle:
-      "Liquid Oral Syrup Manufacturing Plant Manufacturer | Microtech Engineering",
+      "Liquid Oral Syrup Manufacturing Plant | Pharma Equipment | Microtech Engineering",
     metaDescription:
-      "Turnkey liquid oral processing plants for syrup and suspension manufacturing by Microtech Engineering, Mumbai. cGMP compliant with PLC automation.",
+      "Turnkey liquid oral syrup manufacturing plants — 500L to 20,000L batch capacity, PLC/HMI automation, SS 316L, CIP/SIP integrated. Pharmaceutical equipment manufacturer from Mumbai, India.",
   },
   {
     slug: "pw-wfi-storage-tanks",
@@ -104,9 +104,9 @@ export const products: Product[] = [
     category: "Pharmaceutical Equipment",
     image: "/images/PW WFI STORAGE TANK.png",
     metaTitle:
-      "PW & WFI Storage Tanks Manufacturer | Microtech Engineering Mumbai",
+      "PW & WFI Storage Tank Manufacturer in India | cGMP | Microtech Engineering",
     metaDescription:
-      "cGMP-compliant PW and WFI storage tanks from Microtech Engineering, Mumbai. SS 316L electropolished tanks for pharmaceutical water storage.",
+      "Pharmaceutical-grade PW & WFI storage tanks with SS 316L, Ra ≤ 0.2µm electropolished interiors, orbital TIG welding. FDA/ASME BPE compliant. Manufacturer in Maharashtra, India.",
   },
   {
     slug: "stainless-steel-air-tray-dryer",
@@ -170,7 +170,7 @@ export const products: Product[] = [
     metaTitle:
       "SS Octagonal Blender Manufacturer Mumbai | Microtech Engineering",
     metaDescription:
-      "Stainless steel octagonal blenders for pharmaceutical powder blending by Microtech Engineering, Mumbai. Capacities 30L–3,000L, cGMP compliant.",
+      "Stainless steel octagonal blenders for pharmaceutical powder & granule blending. 30L–3,000L capacity, SS 316L, mirror-polished interior. cGMP manufacturer in Mumbai, Maharashtra.",
   },
   {
     slug: "multi-mill-machine",

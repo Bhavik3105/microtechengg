@@ -1,12 +1,14 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us – Microtech Engineering | Pharmaceutical Machinery Manufacturer Mumbai",
+  title: {
+    absolute: "About Us | Pharmaceutical Machinery Manufacturer – Microtech Engineering",
+  },
   description:
-    "Learn about Microtech Engineering – a leading manufacturer of pharmaceutical and industrial machinery in Mumbai since 2020. cGMP compliant, custom-engineered solutions.",
+    "Microtech Engineering is a cGMP-certified pharmaceutical machinery manufacturer in Mumbai, Maharashtra. Since 2020, we've served 100+ clients with custom fabrication, on-time delivery & after-sales support.",
   alternates: {
-    canonical: "https://www.microtechengineering.in/about",
+    canonical: "https://www.microtechengg.in/about",
   },
 };
 
@@ -57,7 +59,7 @@ export default function AboutPage() {
               <li className="text-gray-900 font-medium" aria-current="page">About Us</li>
             </ol>
           </nav>
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">About Microtech Engineering</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Pharmaceutical Machinery Manufacturer Since 2020 | About Microtech Engineering</h1>
           <p className="text-gray-600 max-w-2xl text-lg leading-relaxed">
             A trusted manufacturer of industrial and pharmaceutical machinery, established since 2020.
           </p>

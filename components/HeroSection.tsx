@@ -54,8 +54,8 @@ export default function HeroSection() {
           {/* Left content */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-6 drop-shadow-lg">
-              Consistency You Can See,{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">Quality You Can Trust</span>
+              Pharmaceutical Machinery Manufacturer{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">in Mumbai, Maharashtra | Microtech Engineering</span>
             </h1>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

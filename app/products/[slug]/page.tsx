@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { products, getProductBySlug, getAllProductSlugs } from "@/lib/products";
@@ -16,7 +16,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = getProductBySlug(slug);
   if (!product) return {};
   return {
-    title: product.metaTitle,
+    title: {
+      absolute: product.metaTitle,
+    },
     description: product.metaDescription,
     alternates: {
       canonical: `https://www.microtechengg.in/products/${product.slug}`,
@@ -39,6 +41,7 @@ export default async function ProductDetailPage({ params }: Props) {
     "@type": "Product",
     name: product.name,
     description: product.description,
+    image: `https://www.microtechengg.in${product.image}`,
     brand: { "@type": "Brand", name: "Microtech Engineering" },
     manufacturer: {
       "@type": "Organization",
@@ -51,11 +54,41 @@ export default async function ProductDetailPage({ params }: Props) {
       availability: "https://schema.org/InStock",
     },
   };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.microtechengg.in",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Products",
+        item: "https://www.microtechengg.in/products",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: product.name,
+        item: `https://www.microtechengg.in/products/${product.slug}`,
+      },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <section className="bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -71,7 +104,7 @@ export default async function ProductDetailPage({ params }: Props) {
           <span className="inline-block text-xs bg-white text-gray-700 px-3 py-1 rounded-full font-medium mb-3">
             {product.category}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{product.name}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">{product.name} Manufacturer in India</h1>
           <p className="text-gray-600 max-w-2xl text-lg leading-relaxed">{product.shortDescription}</p>
         </div>
       </section>
