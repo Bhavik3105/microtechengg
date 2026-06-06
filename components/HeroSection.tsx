@@ -54,9 +54,11 @@ export default function HeroSection() {
           {/* Left content */}
           <div className="text-center lg:text-left">
             <h1 className="sr-only">Pharmaceutical Machinery Manufacturer in Mumbai, Maharashtra | Microtech Engineering</h1>
-            <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight mb-6 drop-shadow-lg">
-              Quality{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">Unparalleled</span>
+            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 drop-shadow-lg">
+              Microtech Engineering –{" "}
+              <span className="block sm:inline text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-500 drop-shadow-lg">
+                Precision Industrial &amp; Pharmaceutical Machinery Solutions
+              </span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
