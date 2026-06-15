@@ -161,7 +161,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h3>Conclusion</h3>
-      <p>Selecting the right Ointment Manufacturing Plant Manufacturer in India is an important decision for pharmaceutical and cosmetic manufacturers seeking reliable production performance. Quality equipment contributes to consistent formulations, efficient operations, regulatory compliance, and long-term business growth.</p>
+      <p>Selecting the right <a href="https://microtechengg.in/blog/ointment-manufacturing-plant-manufacturer-india/" class="text-purple-600 hover:underline">Ointment Manufacturing Plant Manufacturer</a> in India is an important decision for pharmaceutical and cosmetic manufacturers seeking reliable production performance. Quality equipment contributes to consistent formulations, efficient operations, regulatory compliance, and long-term business growth.</p>
       <p>Microtech Engineering continues to support manufacturers with process-focused equipment designed for pharmaceutical and industrial applications. With a commitment to engineering quality and manufacturing excellence, the company provides solutions that help businesses maintain efficient and dependable production operations.</p>
     `,
     category: "Pharmaceutical Equipment",
