@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
       "Selecting the right Ointment Manufacturing Plant Manufacturer in India plays a significant role in maintaining production efficiency while meeting strict quality standards.",
     content: `
       <p>Pharmaceutical manufacturing demands accuracy, hygiene, consistency, and compliance at every stage of production. Among the many products manufactured across the pharmaceutical sector, ointments, creams, gels, and lotions require specialized equipment to ensure uniform mixing, stable formulations, and reliable product quality.</p>
-      <p>Selecting the right Ointment Manufacturing Plant Manufacturer in India plays a significant role in achieving these goals. A well-designed manufacturing plant helps pharmaceutical companies maintain production efficiency while meeting strict quality standards and regulatory requirements.</p>
+      <p>Selecting the right <a href="https://microtechengg.in/products/ointment-manufacturing-plant/" class="text-purple-600 hover:underline">Ointment Manufacturing Plant Manufacturer</a> in India plays a significant role in achieving these goals. A well-designed manufacturing plant helps pharmaceutical companies maintain production efficiency while meeting strict quality standards and regulatory requirements.</p>
       <p>Modern ointment production involves several stages, including heating, mixing, homogenization, vacuum processing, storage, and transfer. Each stage requires dependable equipment capable of handling sensitive formulations without affecting their properties.</p>
 
       <h3>Understanding an Ointment Manufacturing Plant</h3>
