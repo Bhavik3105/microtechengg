@@ -21,13 +21,15 @@ export default function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="mb-5">
-              <Image
-                src="/images/logo.png"
-                alt="Microtech Engineering"
-                width={200}
-                height={80}
-                className="h-auto"
-              />
+              <Link href="/" className="inline-block">
+                <Image
+                  src="/images/logo.png"
+                  alt="Microtech Engineering"
+                  width={200}
+                  height={80}
+                  className="h-auto cursor-pointer"
+                />
+              </Link>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed max-w-md mb-6">
               Manufacturer, Exporter, and Supplier of premium industrial and
