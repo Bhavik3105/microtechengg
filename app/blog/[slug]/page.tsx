@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts, getBlogPostBySlug, getAllBlogPostSlugs } from "@/lib/blog";
+import FAQAccordion from "@/components/FAQAccordion";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -63,6 +64,19 @@ export default async function BlogPostPage({ params }: Props) {
     },
   };
 
+  const faqSchema = post.faqs && post.faqs.length > 0 ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: post.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  } : null;
+
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -98,6 +112,12 @@ export default async function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       {/* Hero Header */}
       <section className="bg-gradient-to-br from-purple-200 via-blue-100 to-orange-200 text-gray-900 py-12">
@@ -206,6 +226,11 @@ export default async function BlogPostPage({ params }: Props) {
                   [&_td]:border [&_td]:border-gray-200 [&_td]:p-3 [&_td]:text-gray-700"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />
+
+              {/* FAQ Accordion */}
+              {post.faqs && post.faqs.length > 0 && (
+                <FAQAccordion faqs={post.faqs} />
+              )}
 
               {/* Share/Callout box */}
               <div className="mt-12 p-8 rounded-3xl bg-gradient-to-br from-purple-50 to-orange-50 border border-purple-100 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-sm">

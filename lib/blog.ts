@@ -10,6 +10,7 @@ export interface BlogPost {
   image: string;
   metaTitle: string;
   metaDescription: string;
+  faqs?: { question: string; answer: string }[];
 }
 
 export const blogPosts: BlogPost[] = [
@@ -176,32 +177,6 @@ export const blogPosts: BlogPost[] = [
       <h3>Conclusion</h3>
       <p>Maintaining <a href="https://microtechengg.in/blog/gmp-compliance-in-pharmaceutical-manufacturing-essential-equipment/" class="text-purple-600 hover:underline">GMP Compliance in Pharmaceutical Manufacturing</a> requires a combination of well-defined processes, trained personnel, and high-quality equipment. From liquid oral processing plants and ointment manufacturing systems to PW & WFI storage tanks, CIP systems, and stainless steel process vessels, every piece of equipment plays a critical role in ensuring product quality, safety, and regulatory compliance.</p>
       <p>Investing in reliable GMP pharmaceutical equipment not only helps manufacturers meet compliance requirements but also improves operational efficiency, reduces downtime, and supports long-term business growth. Partnering with an experienced pharmaceutical machinery manufacturer ensures access to equipment designed for hygienic operation, validated performance, and future-ready pharmaceutical production.</p>
-
-      <h3>Frequently Asked Questions (FAQs)</h3>
-
-      <h4>1. What does GMP stand for in pharmaceutical manufacturing?</h4>
-      <p>GMP stands for Good Manufacturing Practices, a system of regulations and guidelines that ensures pharmaceutical products are consistently produced and controlled according to quality standards.</p>
-
-      <h4>2. Why is GMP compliance important for pharmaceutical manufacturers?</h4>
-      <p>GMP compliance helps ensure product safety, consistency, regulatory approval, contamination prevention, and efficient manufacturing processes.</p>
-
-      <h4>3. What materials are commonly used in GMP pharmaceutical equipment?</h4>
-      <p>Most GMP-compliant equipment uses SS316L stainless steel because of its corrosion resistance, durability, and hygienic properties.</p>
-
-      <h4>4. What equipment is essential in a GMP-compliant pharmaceutical plant?</h4>
-      <p>Common equipment includes liquid oral processing plants, ointment manufacturing plants, PW & WFI storage tanks, CIP systems, pressure vessels, multi mills, vibro shifters, IPC bins, mixing vessels, and filtration systems.</p>
-
-      <h4>5. What is a CIP system?</h4>
-      <p>A Clean-in-Place (CIP) system automatically cleans manufacturing equipment without dismantling it, improving hygiene, reducing downtime, and supporting GMP compliance.</p>
-
-      <h4>6. How do PW and WFI storage tanks support GMP compliance?</h4>
-      <p>They store purified and injectable-grade water under hygienic, controlled conditions to prevent contamination and maintain water quality for pharmaceutical production.</p>
-
-      <h4>7. How often should pharmaceutical equipment be validated?</h4>
-      <p>Equipment should be validated during installation, after significant modifications, and periodically according to the manufacturer's recommendations and regulatory requirements.</p>
-
-      <h4>8. How can manufacturers choose the right pharmaceutical machinery supplier?</h4>
-      <p>Choose a supplier with expertise in GMP-compliant equipment, stainless steel fabrication, customization capabilities, validation support, installation services, and after-sales technical assistance.</p>
     `,
     category: "Compliance",
     readTime: "9 min read",
@@ -210,6 +185,40 @@ export const blogPosts: BlogPost[] = [
     image: "/images/OINTMENT.png",
     metaTitle: "GMP Compliance in Pharmaceutical Manufacturing | Essential Equipment Guide",
     metaDescription: "Learn how GMP compliance improves pharmaceutical manufacturing and discover the essential equipment every GMP-compliant plant needs for quality and efficiency.",
+    faqs: [
+      {
+        question: "What does GMP stand for in pharmaceutical manufacturing?",
+        answer: "GMP stands for Good Manufacturing Practices, a system of regulations and guidelines that ensures pharmaceutical products are consistently produced and controlled according to quality standards.",
+      },
+      {
+        question: "Why is GMP compliance important for pharmaceutical manufacturers?",
+        answer: "GMP compliance helps ensure product safety, consistency, regulatory approval, contamination prevention, and efficient manufacturing processes.",
+      },
+      {
+        question: "What materials are commonly used in GMP pharmaceutical equipment?",
+        answer: "Most GMP-compliant equipment uses SS316L stainless steel because of its corrosion resistance, durability, and hygienic properties.",
+      },
+      {
+        question: "What equipment is essential in a GMP-compliant pharmaceutical plant?",
+        answer: "Common equipment includes liquid oral processing plants, ointment manufacturing plants, PW & WFI storage tanks, CIP systems, pressure vessels, multi mills, vibro shifters, IPC bins, mixing vessels, and filtration systems.",
+      },
+      {
+        question: "What is a CIP system?",
+        answer: "A Clean-in-Place (CIP) system automatically cleans manufacturing equipment without dismantling it, improving hygiene, reducing downtime, and supporting GMP compliance.",
+      },
+      {
+        question: "How do PW and WFI storage tanks support GMP compliance?",
+        answer: "They store purified and injectable-grade water under hygienic, controlled conditions to prevent contamination and maintain water quality for pharmaceutical production.",
+      },
+      {
+        question: "How often should pharmaceutical equipment be validated?",
+        answer: "Equipment should be validated during installation, after significant modifications, and periodically according to the manufacturer's recommendations and regulatory requirements.",
+      },
+      {
+        question: "How can manufacturers choose the right pharmaceutical machinery supplier?",
+        answer: "Choose a supplier with expertise in GMP-compliant equipment, stainless steel fabrication, customization capabilities, validation support, installation services, and after-sales technical assistance.",
+      },
+    ],
   },
   {
     slug: "liquid-oral-syrup-manufacturing-plant-manufacturer-india",
