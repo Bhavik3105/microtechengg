@@ -182,7 +182,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "9 min read",
     date: "July 4, 2026",
     author: "Ashish Panchal",
-    image: "/images/OINTMENT.png",
+    image: "/images/gmp-compliance-blog.png",
     metaTitle: "GMP Compliance in Pharmaceutical Manufacturing | Essential Equipment Guide",
     metaDescription: "Learn how GMP compliance improves pharmaceutical manufacturing and discover the essential equipment every GMP-compliant plant needs for quality and efficiency.",
     faqs: [
