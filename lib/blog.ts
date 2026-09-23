@@ -15,6 +15,356 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "continuous-manufacturing-pharma-india-equipment-2026",
+    title:
+      "Continuous Manufacturing in Pharma 2026: Why Indian Plants Are Moving from Batch to Continuous — and What It Means for Equipment",
+    summary:
+      "Discover how continuous manufacturing is changing pharma production in 2026 and what Indian manufacturers need to consider when selecting equipment, automation and process controls.",
+    content: `
+      <p>For decades, pharmaceutical manufacturing has largely been built around the batch manufacturing model. Raw materials are processed in defined batches, with individual manufacturing stages separated by transfers, holding steps, testing, and release activities.</p>
+      <p>But pharmaceutical manufacturing is increasingly exploring a different approach: continuous manufacturing.</p>
+      <p>Instead of producing a fixed batch and stopping between stages, continuous manufacturing integrates process operations so that material flows through the production system continuously or for extended periods.</p>
+      <p>The technology has attracted significant regulatory and industry attention. The U.S. FDA's ICH Q13 guidance provides scientific and regulatory considerations for the development, implementation, operation, and lifecycle management of continuous manufacturing for drug substances and drug products.</p>
+      <p>FDA also describes continuous manufacturing as an advanced manufacturing technology that can integrate traditionally stepwise operations into a single system, with potential benefits including more responsive production, smaller manufacturing footprints, and improved process control.</p>
+      <p>For Indian pharmaceutical manufacturers considering new plants, capacity expansion, process modernization, or advanced manufacturing technologies, continuous manufacturing therefore deserves closer attention.</p>
+      <p>But moving from batch to continuous is not simply a matter of replacing one machine with another.</p>
+      <p>It requires a different approach to equipment design, process control, instrumentation, automation, material flow, monitoring, cleaning, validation, and data management for <a href="https://microtechengg.in/products/" class="text-purple-600 hover:underline">continuous manufacturing equipment</a>.</p>
+
+      <h3>What Is Continuous Manufacturing in Pharma?</h3>
+      <p>Continuous manufacturing is a pharmaceutical production approach in which material moves through interconnected processing steps continuously or for an extended production run rather than being processed as isolated batches.</p>
+      <p>A simplified batch process may look like:</p>
+      <p><strong>Raw Materials &rarr; Mixing &rarr; Processing &rarr; Holding &rarr; Testing &rarr; Next Batch</strong></p>
+      <p>A continuous process can instead be structured as:</p>
+      <p><strong>Raw Materials &rarr; Continuous Feeding &rarr; Continuous Processing &rarr; Continuous Monitoring &rarr; Controlled Output</strong></p>
+      <p>The exact configuration depends on the product and manufacturing process.</p>
+      <p>Continuous manufacturing can be applied to selected drug-substance and drug-product processes, including certain small-molecule and biologics operations.</p>
+      <p>FDA's Q13 guidance specifically addresses continuous manufacturing of both drug substances and drug products and discusses development, operation, control strategy, and lifecycle considerations.</p>
+
+      <h3>Batch Manufacturing vs Continuous Manufacturing</h3>
+      <p>The two approaches are not simply "old" versus "new."</p>
+      <p>Batch manufacturing remains appropriate for many pharmaceutical processes.</p>
+      <p>The right manufacturing model depends on:</p>
+      <ul>
+        <li>Product characteristics</li>
+        <li>Process chemistry</li>
+        <li>Production volume</li>
+        <li>Process understanding</li>
+        <li>Control strategy</li>
+        <li>Equipment availability</li>
+        <li>Quality requirements</li>
+        <li>Facility design</li>
+        <li>Investment requirements</li>
+        <li>Regulatory strategy</li>
+      </ul>
+      <p>However, continuous manufacturing can offer a different operating model for processes where continuous flow, real-time monitoring, and integrated control provide meaningful advantages.</p>
+
+      <div class="overflow-x-auto my-6">
+        <table class="min-w-full border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-purple-100">
+              <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-900">Batch Manufacturing</th>
+              <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-gray-900">Continuous Manufacturing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">Defined production batches</td>
+              <td class="border border-gray-300 px-4 py-2">Continuous or extended production</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-4 py-2">Multiple discrete process stages</td>
+              <td class="border border-gray-300 px-4 py-2">Integrated process stages</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">Larger intermediate holding requirements may be needed</td>
+              <td class="border border-gray-300 px-4 py-2">Potentially lower intermediate inventory</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-4 py-2">More start/stop operations</td>
+              <td class="border border-gray-300 px-4 py-2">More continuous operation</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">Scale often linked to equipment capacity</td>
+              <td class="border border-gray-300 px-4 py-2">Production can potentially be adjusted through run duration and process configuration</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-4 py-2">Batch-focused monitoring</td>
+              <td class="border border-gray-300 px-4 py-2">Continuous process monitoring</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">Traditional equipment architecture</td>
+              <td class="border border-gray-300 px-4 py-2">Highly integrated equipment architecture</td>
+            </tr>
+            <tr class="bg-gray-50">
+              <td class="border border-gray-300 px-4 py-2">Automation varies by plant</td>
+              <td class="border border-gray-300 px-4 py-2">Advanced automation is often central</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The choice should be based on the specific manufacturing process rather than assuming continuous manufacturing is automatically superior.</p>
+
+      <h3>Why Is Continuous Manufacturing Gaining Attention?</h3>
+      <p>Several characteristics make continuous manufacturing attractive for certain pharmaceutical processes.</p>
+
+      <h4>1. More Continuous Process Monitoring</h4>
+      <p>Continuous manufacturing depends heavily on monitoring critical process parameters and, where appropriate, critical quality attributes.</p>
+      <p>Instead of relying primarily on testing samples after individual batches, manufacturers can integrate sensors and analytical technologies into the process.</p>
+      <p>This can provide greater visibility into process behavior.</p>
+
+      <h4>2. Process Analytical Technology (PAT)</h4>
+      <p>Process Analytical Technology, or PAT, is an important component of advanced pharmaceutical manufacturing.</p>
+      <p>PAT can involve technologies that monitor process conditions and product characteristics during manufacturing.</p>
+      <p>Potential measurements include:</p>
+      <ul>
+        <li>Temperature</li>
+        <li>Pressure</li>
+        <li>Flow</li>
+        <li>Moisture</li>
+        <li>Concentration</li>
+        <li>Particle characteristics</li>
+        <li>Chemical composition</li>
+      </ul>
+      <p>Depending on the process, analytical instruments can provide near-real-time information that supports process control. This is one reason continuous manufacturing is closely connected with advanced instrumentation and automation.</p>
+
+      <h4>3. Reduced Intermediate Inventory</h4>
+      <p>Batch manufacturing can require intermediate material to be held between processing stages.</p>
+      <p>An integrated continuous system can potentially reduce the amount of material held between operations.</p>
+      <p>This can affect storage requirements, material handling, facility footprint, and work-in-progress inventory. The actual benefit depends heavily on the process design.</p>
+
+      <h4>4. Smaller Manufacturing Footprint</h4>
+      <p>Continuous manufacturing can integrate several operations into a more compact production architecture.</p>
+      <p>FDA notes that integrated continuous systems can require smaller manufacturing footprints. For manufacturers planning new facilities, this can be an important consideration.</p>
+      <p>However, footprint should be evaluated together with equipment accessibility, maintenance space, cleaning requirements, utility connections, safety, material movement, and operator access. A smaller equipment footprint should not come at the expense of maintainability or GMP-oriented facility design.</p>
+
+      <h4>5. Flexible Production Capacity</h4>
+      <p>One potential characteristic of continuous manufacturing is the ability to adjust production output through operating time and process configuration rather than relying only on the size of a batch vessel.</p>
+      <p>FDA describes continuous manufacturing as enabling manufacturers to control the amount produced over time to match demand. This can be particularly interesting for manufacturers dealing with variable demand.</p>
+
+      <h4>6. Automation Becomes More Important</h4>
+      <p>Automation is not optional decoration in a sophisticated continuous manufacturing system. It becomes a core component of the process.</p>
+      <p>A continuous plant may need to coordinate material feeding, flow rates, mixing, temperature, pressure, residence time, equipment speed, product diversion, alarms, process monitoring, and quality signals.</p>
+      <p>A failure in one process stage can potentially affect downstream operations. Therefore, continuous manufacturing places greater importance on coordinated process control.</p>
+
+      <h3>What Does Continuous Manufacturing Mean for Pharmaceutical Equipment?</h3>
+      <p>This is where the shift from batch to continuous becomes particularly important for equipment manufacturers.</p>
+      <p>Traditional batch equipment is often designed around: <strong>Load &rarr; Process &rarr; Discharge &rarr; Clean &rarr; Repeat</strong></p>
+      <p>Continuous systems may instead require: <strong>Feed &rarr; Process &rarr; Monitor &rarr; Control &rarr; Output</strong></p>
+      <p>This changes the engineering requirements.</p>
+
+      <h4>1. Equipment Must Work as an Integrated System</h4>
+      <p>Continuous manufacturing equipment cannot always be evaluated as individual machines.</p>
+      <p>The complete process may include feed systems, mixers, reactors, heat exchangers, pumps, filters, continuous dryers, granulation systems, conveyors, sensors, analytical instruments, automated valves, and control systems.</p>
+      <p>The interface between each stage becomes critical. Equipment suppliers therefore need to consider how each component communicates and interacts with the rest of the process.</p>
+
+      <h4>2. Flow Control Becomes Critical</h4>
+      <p>In a batch process, material quantities can be loaded into a vessel before processing begins.</p>
+      <p>In continuous manufacturing, maintaining controlled material flow becomes much more important.</p>
+      <p>Equipment may need accurate mass flow, volumetric flow, feed rate, pump speed, valve positioning, and material dosing. Flow measurement and control therefore become important equipment-selection criteria.</p>
+
+      <h4>3. Sensors Become Part of the Manufacturing Strategy</h4>
+      <p>Continuous systems rely heavily on instrumentation. Depending on the process, this may include temperature sensors, pressure sensors, flow meters, level sensors, load cells, conductivity sensors, pH sensors, spectroscopic instruments, and moisture sensors.</p>
+      <p>The objective is not simply to collect more data. The system should collect relevant data that can support process understanding and control.</p>
+
+      <h4>4. Advanced Automation and Control Systems</h4>
+      <p>Continuous manufacturing can require sophisticated control architectures. Potential technologies include:</p>
+      <ul>
+        <li><strong>PLC:</strong> Controls equipment and process sequences.</li>
+        <li><strong>HMI:</strong> Provides operator visualization and control.</li>
+        <li><strong>SCADA:</strong> Provides centralized monitoring, alarms, trends, and data visualization.</li>
+        <li><strong>DCS:</strong> Distributed Control Systems may be used for larger and more complex process environments.</li>
+        <li><strong>MES:</strong> Manufacturing Execution Systems can connect production operations with manufacturing information and workflows.</li>
+        <li><strong>PAT:</strong> Analytical technologies can provide near-real-time process information.</li>
+      </ul>
+
+      <h4>5. Automated Valves and Flow Paths</h4>
+      <p>Continuous systems may contain many automated valves controlling product flow, cleaning circuits, utility supply, diversion paths, sampling, and product routing.</p>
+      <p>Valve selection must consider product compatibility, hygienic design, pressure, temperature, cleaning, automation, and maintenance.</p>
+
+      <h4>6. Equipment Must Be Designed for Continuous Operation</h4>
+      <p>Continuous operation can place different demands on equipment compared with batch operation.</p>
+      <p>Equipment designers need to consider long operating periods, heat generation, mechanical wear, sensor reliability, pump performance, seal performance, cleaning intervals, and maintenance access.</p>
+      <p>Preventive maintenance becomes particularly important because an equipment failure can interrupt an integrated process.</p>
+
+      <h4>7. Cleaning and Contamination Control Become Critical</h4>
+      <p>Continuous production does not eliminate cleaning requirements. Equipment must still be designed for cleaning, inspection, maintenance, product changeovers, campaign production, and cross-contamination control.</p>
+      <p>FDA's GMP equipment guidance emphasizes appropriate equipment design for intended use, cleaning and maintenance, and requires appropriate controls to prevent contamination and carryover.</p>
+
+      <h4>8. Data Integrity and Traceability</h4>
+      <p>Continuous manufacturing produces substantial process data, including feed rates, temperature, pressure, flow, process time, equipment status, alarms, quality measurements, product diversion, and operator actions.</p>
+      <p>This makes data architecture an important part of equipment design. Manufacturers should consider data storage, user access, audit trails, data backup, cybersecurity, electronic records, and system validation.</p>
+
+      <h4>9. Real-Time Quality Control</h4>
+      <p>One of the major differences between traditional batch production and advanced continuous manufacturing is the opportunity for more integrated process monitoring.</p>
+      <p>If process measurements indicate that material is outside predefined conditions, automated systems can potentially trigger an alarm, adjust process parameters, divert material, stop a process, or notify an operator.</p>
+
+      <h3>Is Continuous Manufacturing Suitable for Every Indian Pharma Plant?</h3>
+      <p>No. This is an important point. Continuous manufacturing should not be adopted simply because it is a newer technology.</p>
+      <p>A manufacturer should evaluate product characteristics, process maturity, production volumes, demand variability, process understanding, existing equipment, automation capabilities, available engineering expertise, quality systems, regulatory strategy, and total cost of ownership.</p>
+      <p>For some products, batch manufacturing may remain the most practical approach. For other processes, continuous manufacturing may provide meaningful operational or economic advantages.</p>
+
+      <h3>Why Indian Pharma Manufacturers Should Evaluate Continuous Manufacturing</h3>
+      <p>India has a large and diverse pharmaceutical manufacturing ecosystem, including generic drug manufacturers, API manufacturers, formulation manufacturers, contract manufacturers, CDMOs, and specialty pharmaceutical companies.</p>
+      <p>As manufacturers modernize facilities and compete in international markets, advanced manufacturing technologies can become part of long-term capacity and technology strategies.</p>
+      <p>Continuous manufacturing can be considered alongside other modernization initiatives such as process automation, PAT, Industry 4.0, digital batch records, smart equipment, predictive maintenance, and advanced process control.</p>
+
+      <h3>What Equipment Manufacturers Need to Change</h3>
+      <p>The move toward continuous manufacturing also changes expectations from pharmaceutical machinery manufacturers.</p>
+      <p>Traditional fabrication expertise remains important, but manufacturers may increasingly need capabilities in:</p>
+      <ul>
+        <li><strong>Process Engineering:</strong> Understanding how equipment performs as part of the complete manufacturing process.</li>
+        <li><strong>Automation:</strong> PLC, HMI, SCADA, DCS, instrumentation, and control integration.</li>
+        <li><strong>Instrumentation:</strong> Accurate measurement and control of critical process parameters.</li>
+        <li><strong>Hygienic Engineering:</strong> Designing equipment that supports cleaning, maintenance, and contamination control.</li>
+        <li><strong>Data Integration:</strong> Connecting equipment to plant-level digital systems.</li>
+        <li><strong>Documentation:</strong> Providing appropriate engineering and qualification documentation.</li>
+      </ul>
+
+      <h3>Batch-to-Continuous Conversion: What Should Manufacturers Evaluate?</h3>
+      <p>Companies considering a transition should begin with a process assessment:</p>
+      <p><strong>Step 1: Map the Existing Process</strong><br>Document raw material inputs, process stages, holding steps, transfers, quality checks, cleaning, and batch cycle times.</p>
+      <p><strong>Step 2: Identify Bottlenecks</strong><br>Look for long processing times, excessive intermediate storage, repeated manual operations, process variability, and equipment capacity limitations.</p>
+      <p><strong>Step 3: Assess Process Suitability</strong><br>Determine whether the process can technically support continuous operation.</p>
+      <p><strong>Step 4: Define the Control Strategy</strong><br>Identify critical process parameters, critical quality attributes, sensors, PAT requirements, control loops, and alarm conditions.</p>
+      <p><strong>Step 5: Design the Equipment System</strong><br>Develop process flow, equipment specifications, instrumentation, automation architecture, and cleaning strategy.</p>
+      <p><strong>Step 6: Plan Qualification and Validation</strong><br>Qualification and validation should be incorporated into the project from the beginning rather than treated as an afterthought.</p>
+
+      <h3>What Should You Ask a Pharmaceutical Equipment Manufacturer?</h3>
+      <p>If you are evaluating continuous manufacturing equipment, ask:</p>
+      <p><strong>Process:</strong></p>
+      <ul>
+        <li>Can the system operate continuously for the required duration?</li>
+        <li>What is the expected throughput?</li>
+        <li>How is residence time controlled?</li>
+        <li>How is material flow managed?</li>
+      </ul>
+      <p><strong>Equipment:</strong></p>
+      <ul>
+        <li>What materials are used for product-contact surfaces?</li>
+        <li>How is the equipment cleaned?</li>
+        <li>Can the system support CIP?</li>
+        <li>How are wear components maintained?</li>
+      </ul>
+      <p><strong>Automation:</strong></p>
+      <ul>
+        <li>Which PLC/control platform is used?</li>
+        <li>Can SCADA or DCS integration be provided?</li>
+        <li>Can the system integrate with PAT instruments?</li>
+        <li>How are alarms handled?</li>
+      </ul>
+      <p><strong>Data:</strong></p>
+      <ul>
+        <li>What process parameters are recorded?</li>
+        <li>Can historical trends be accessed?</li>
+        <li>Are audit trails available where required?</li>
+        <li>How are data backups handled?</li>
+      </ul>
+      <p><strong>Qualification:</strong></p>
+      <ul>
+        <li>What documentation is supplied?</li>
+        <li>Can FAT/SAT be supported?</li>
+        <li>What qualification documentation is available?</li>
+        <li>Can calibration documentation be provided?</li>
+      </ul>
+
+      <h3>The Future of Pharmaceutical Manufacturing Equipment</h3>
+      <p>The pharmaceutical equipment landscape is increasingly moving toward systems that are automated, connected, modular, sensor-driven, data-enabled, energy-efficient, and scalable.</p>
+      <p>Continuous manufacturing is part of this broader transformation. FDA's current advanced-manufacturing initiatives explicitly identify end-to-end continuous manufacturing among technologies being considered for regulatory modernization, alongside areas such as distributed manufacturing and AI in manufacturing.</p>
+
+      <h3>How Microtech Engineering Can Prepare for the Shift</h3>
+      <p>For pharmaceutical equipment manufacturers such as Microtech Engineering, the opportunity is to develop equipment that is ready for increasing levels of automation and process integration.</p>
+      <p>Relevant capabilities include pharmaceutical process vessels, liquid processing systems, mixing systems, storage systems, CIP systems, hygienic process piping, instrumentation, PLC automation, HMI/SCADA integration, process monitoring, and customized process equipment.</p>
+
+      <h3>Conclusion</h3>
+      <p><a href="https://microtechengg.in/blog/continuous-manufacturing-pharma-india-equipment-2026/" class="text-purple-600 hover:underline">Continuous manufacturing in pharma 2026</a> represents an important direction in pharmaceutical manufacturing technology.</p>
+      <p>Rather than processing fixed batches through isolated steps, continuous systems integrate production operations around controlled material flow, process monitoring, automation, and real-time decision-making.</p>
+      <p>For Indian pharmaceutical manufacturers, the decision to move from batch to continuous should be based on process suitability, economics, quality strategy, technology maturity, regulatory considerations, and long-term manufacturing objectives.</p>
+      <p>The equipment implications are significant. Manufacturers need to think beyond individual vessels and machines and consider integrated process systems, flow control, advanced instrumentation, automation, PAT, data management, cleaning, maintenance, qualification, and lifecycle support.</p>
+      <p>The future of pharmaceutical manufacturing equipment is therefore increasingly about how machines work together as intelligent process systems, rather than how individual machines operate in isolation.</p>
+    `,
+    category: "Automation",
+    readTime: "12 min read",
+    date: "September 24, 2026",
+    author: "Ashish Panchal",
+    image: "/images/Blog banner.png",
+    metaTitle:
+      "Continuous Manufacturing in Pharma 2026: Equipment Guide for India",
+    metaDescription:
+      "Discover how continuous manufacturing is changing pharma production in 2026 and what Indian manufacturers need to consider when selecting equipment, automation and process controls.",
+    faqs: [
+      {
+        question: "What is continuous manufacturing in pharmaceuticals?",
+        answer:
+          "Continuous manufacturing is a production approach in which pharmaceutical materials move through interconnected processing operations continuously or for extended production runs rather than being produced entirely as separate batches.",
+      },
+      {
+        question:
+          "What is the difference between batch and continuous manufacturing?",
+        answer:
+          "Batch manufacturing processes a defined quantity of material through individual production stages. Continuous manufacturing maintains material flow through integrated process steps while monitoring and controlling critical parameters during production.",
+      },
+      {
+        question:
+          "Why is continuous manufacturing gaining attention in pharma?",
+        answer:
+          "Continuous manufacturing can potentially provide greater process integration, real-time monitoring, reduced intermediate inventory, flexible production duration, and smaller manufacturing footprints for suitable processes. FDA recognizes continuous manufacturing as an advanced manufacturing technology.",
+      },
+      {
+        question:
+          "Is continuous manufacturing better than batch manufacturing?",
+        answer:
+          "Not universally. The appropriate approach depends on the product, process, production volume, facility, control strategy, investment requirements, and regulatory considerations. Batch manufacturing remains appropriate for many pharmaceutical processes.",
+      },
+      {
+        question:
+          "What equipment is required for continuous pharmaceutical manufacturing?",
+        answer:
+          "Equipment depends on the process but may include continuous feeders, mixers, reactors, pumps, heat exchangers, filters, dryers, sensors, PAT instruments, automated valves, PLC/DCS controls, SCADA systems, and integrated process-control systems.",
+      },
+      {
+        question:
+          "What role does automation play in continuous manufacturing?",
+        answer:
+          "Automation coordinates material flow, process parameters, equipment operation, alarms, monitoring, and control loops. Because process stages are interconnected, reliable automation is particularly important in continuous systems.",
+      },
+      {
+        question:
+          "What is PAT in continuous pharmaceutical manufacturing?",
+        answer:
+          "Process Analytical Technology uses analytical and measurement technologies to understand and monitor manufacturing processes, potentially providing near-real-time information about process conditions and product quality.",
+      },
+      {
+        question:
+          "Can existing batch equipment be converted to continuous manufacturing?",
+        answer:
+          "Sometimes, but not always. Conversion depends on the process, equipment design, material properties, required throughput, control strategy, cleaning requirements, and integration possibilities. In many cases, significant process and equipment redesign may be necessary.",
+      },
+      {
+        question:
+          "Does continuous manufacturing reduce pharmaceutical manufacturing costs?",
+        answer:
+          "It can potentially improve resource utilization, reduce intermediate inventory, and improve process efficiency for suitable applications. However, the capital cost, automation requirements, development work, validation, and maintenance must be considered when evaluating total lifecycle economics.",
+      },
+      {
+        question: "Is continuous manufacturing GMP-compliant?",
+        answer:
+          "Continuous manufacturing can be implemented within a GMP framework. The equipment and process must be appropriately designed, controlled, qualified, validated, documented, cleaned, and maintained for the intended application. FDA's Q13 guidance provides specific scientific and regulatory considerations for continuous manufacturing.",
+      },
+      {
+        question:
+          "What should Indian pharma manufacturers consider before adopting continuous manufacturing?",
+        answer:
+          "Manufacturers should assess process suitability, product characteristics, production requirements, control strategy, PAT needs, automation infrastructure, equipment design, cleaning, validation, data integrity, regulatory strategy, engineering capabilities, and lifecycle costs.",
+      },
+      {
+        question:
+          "How should pharmaceutical equipment manufacturers prepare for continuous manufacturing?",
+        answer:
+          "Equipment manufacturers can prepare by developing stronger capabilities in process engineering, automation, instrumentation, hygienic design, integrated control systems, data connectivity, qualification documentation, and lifecycle technical support.",
+      },
+    ],
+  },
+  {
     slug: "sustainable-pharma-manufacturing-energy-water-waste",
     title:
       "Sustainable Pharma Manufacturing in 2026: How to Cut Energy, Water, and Waste Without Compromising GMP",

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { blogPosts } from "@/lib/blog";
 
-const categories = ["All", "Sustainability", "Compliance", "Water Systems", "Blending Technology", "Pharmaceutical Equipment"];
+const categories = ["All", "Automation", "Sustainability", "Compliance", "Water Systems", "Blending Technology", "Pharmaceutical Equipment"];
 
 export default function BlogPage() {
   const [searchQuery, setSearchQuery] = useState("");
